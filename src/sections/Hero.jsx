@@ -1,3 +1,6 @@
+import { arrowRight } from "../assets/icons";
+import Button from "../components/Button";
+
 const Hero = () => {
   return (
     <section className="w-full flex flex-col xl:flex-row justify-center min-h-screen gap-10 max-container">
@@ -12,7 +15,7 @@ const Hero = () => {
           Discover the stylish Nike arrivals, quality, comfort, and innovation
           for your active life.
         </p>
-        Button
+        <Button label="Shop now" iconURL={arrowRight} />
       </div>
     </section>
   );
