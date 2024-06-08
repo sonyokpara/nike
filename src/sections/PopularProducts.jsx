@@ -1,5 +1,6 @@
 import { products } from "../constants";
 import PopularProductCard from "../components/PopularProductCard";
+import { shoe8 } from "../assets/images";
 
 const PopularProducts = () => {
   return (
