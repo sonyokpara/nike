@@ -41,7 +41,7 @@ const Nav = () => {
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className="font-montserrat leading-normal text-lg text-slate-gray"
+                  className="font-montserrat leading-normal text-lg text-slate-gray hover:font-semibold transition-all duration-300"
                 >
                   {link.label}
                 </a>
@@ -69,7 +69,7 @@ const Nav = () => {
                 <a
                   onClick={toggleMenu}
                   href={link.href}
-                  className="font-montserrat leading-normal text-lg text-slate-gray hover:font-bold"
+                  className="font-montserrat leading-normal text-lg text-slate-gray hover:font-semibold"
                 >
                   {link.label}
                 </a>
